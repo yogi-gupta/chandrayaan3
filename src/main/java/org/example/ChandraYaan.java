@@ -28,7 +28,14 @@ public class ChandraYaan {
     }
 
     public void backward() {
-
+        switch (direction) {
+            case East -> x--;
+            case West -> x++;
+            case North -> y--;
+            case South -> y++;
+            case Up ->  z--;
+            case Down -> z++;
+        }
     }
 
     public void left() {
