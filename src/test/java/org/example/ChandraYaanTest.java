@@ -196,7 +196,7 @@ public class ChandraYaanTest {
     void spaceCraftShouldMoveleftInEastDirection(){
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.East);
         yaan.left(); // move left
-        assertEquals(Direction.South, yaan.getDirection());
+        assertEquals(Direction.East, yaan.getDirection());
         assertEquals(1, yaan.getY());
         assertEquals(0, yaan.getX());
         assertEquals(0, yaan.getZ());

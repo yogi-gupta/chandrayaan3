@@ -39,7 +39,12 @@ public class ChandraYaan {
     }
 
     public void left() {
-
+        switch (direction) {
+            case East -> y++;
+            case West -> y--;
+            case North -> x--;
+            case South -> x++;
+        }
     }
 
     public void right() {
