@@ -3,10 +3,11 @@ package org.example;
 import org.example.models.Direction;
 
 public class ChandraYaan {
-    private final int x;
-    private final int y;
-    private final int z;
-    private final Direction direction;
+    private int x;
+    private int y;
+    private int z;
+    private
+    Direction direction;
 
     ChandraYaan(int x, int y, int z, Direction direction) {
         this.x = x;
@@ -16,7 +17,14 @@ public class ChandraYaan {
     }
 
     public void forward() {
-
+        switch (direction) {
+            case East -> x++;
+            case West -> x--;
+            case North -> y++;
+            case South -> y--;
+            case Up -> z++;
+            case Down -> z--;
+        }
     }
 
     public void backward() {
