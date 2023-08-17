@@ -57,7 +57,12 @@ public class ChandraYaan {
     }
 
     public void rotateLeft() {
-
+        switch (direction) {
+            case East -> direction = Direction.North;
+            case West -> direction = Direction.South;
+            case North -> direction = Direction.West;
+            case South -> direction = Direction.East;
+        }
     }
 
     public void rotateRight() {

@@ -295,10 +295,12 @@ public class ChandraYaanTest {
     void spaceCraftShouldRotateLeftInWestDirection(){
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.West);
         yaan.rotateLeft(); // RotateLeft
-        assertEquals(Direction.North, yaan.getDirection());
+        assertEquals(Direction.South, yaan.getDirection());
         assertEquals(0, yaan.getY());
         assertEquals(0, yaan.getX());
         assertEquals(0, yaan.getZ());
     }
+
+
 
 }
