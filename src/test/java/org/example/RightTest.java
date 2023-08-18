@@ -10,7 +10,7 @@ public class RightTest {
 
     @Test
     @DisplayName("SpaceCraft should move right in North Direction")
-    void spaceCraftShouldMoveRightInNorthDirection(){
+    void spaceCraftShouldMoveRightInNorthDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.North);
         yaan.right(); // move right
         assertEquals(Direction.North, yaan.getDirection());
@@ -21,7 +21,7 @@ public class RightTest {
 
     @Test
     @DisplayName("SpaceCraft should move right in South Direction")
-    void spaceCraftShouldMoveRightInSouthDirection(){
+    void spaceCraftShouldMoveRightInSouthDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.South);
         yaan.right(); // move right
         assertEquals(Direction.South, yaan.getDirection());
@@ -32,7 +32,7 @@ public class RightTest {
 
     @Test
     @DisplayName("SpaceCraft should move right in West Direction")
-    void spaceCraftShouldMoveRightInWestDirection(){
+    void spaceCraftShouldMoveRightInWestDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.West);
         yaan.right(); // move right
         assertEquals(Direction.West, yaan.getDirection());
@@ -43,7 +43,7 @@ public class RightTest {
 
     @Test
     @DisplayName("SpaceCraft should move right in East Direction")
-    void spaceCraftShouldMoveRightInEastDirection(){
+    void spaceCraftShouldMoveRightInEastDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.East);
         yaan.right(); // move right
         assertEquals(Direction.East, yaan.getDirection());

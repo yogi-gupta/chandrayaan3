@@ -10,7 +10,7 @@ public class RotateLeftTest {
 
     @Test
     @DisplayName("SpaceCraft should Rotate left in North Direction")
-    void spaceCraftShouldRotateLeftInNorthDirection(){
+    void spaceCraftShouldRotateLeftInNorthDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.North);
         yaan.rotateLeft(); // RotateLeft
         assertEquals(Direction.West, yaan.getDirection());
@@ -21,7 +21,7 @@ public class RotateLeftTest {
 
     @Test
     @DisplayName("SpaceCraft should Rotate left in South Direction")
-    void spaceCraftShouldRotateLeftInSouthDirection(){
+    void spaceCraftShouldRotateLeftInSouthDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.South);
         yaan.rotateLeft(); // RotateLeft
         assertEquals(Direction.East, yaan.getDirection());
@@ -32,7 +32,7 @@ public class RotateLeftTest {
 
     @Test
     @DisplayName("SpaceCraft should Rotate left in East Direction")
-    void spaceCraftShouldRotateLeftInEastDirection(){
+    void spaceCraftShouldRotateLeftInEastDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.East);
         yaan.rotateLeft(); // RotateLeft
         assertEquals(Direction.North, yaan.getDirection());
@@ -43,7 +43,7 @@ public class RotateLeftTest {
 
     @Test
     @DisplayName("SpaceCraft should Rotate left in West Direction")
-    void spaceCraftShouldRotateLeftInWestDirection(){
+    void spaceCraftShouldRotateLeftInWestDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.West);
         yaan.rotateLeft(); // RotateLeft
         assertEquals(Direction.South, yaan.getDirection());
@@ -54,7 +54,7 @@ public class RotateLeftTest {
 
     @Test
     @DisplayName("SpaceCraft should Rotate left in Up Direction")
-    void spaceCraftShouldRotateLeftInUpDirection(){
+    void spaceCraftShouldRotateLeftInUpDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.Up);
         yaan.rotateLeft(); // RotateLeft
         assertEquals(Direction.North, yaan.getDirection());
@@ -65,7 +65,7 @@ public class RotateLeftTest {
 
     @Test
     @DisplayName("SpaceCraft should Rotate left in Down Direction")
-    void spaceCraftShouldRotateLeftInDownDirection(){
+    void spaceCraftShouldRotateLeftInDownDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.Down);
         yaan.rotateLeft(); // RotateLeft
         assertEquals(Direction.South, yaan.getDirection());

@@ -10,7 +10,7 @@ public class TurnDownTest {
 
     @Test
     @DisplayName("SpaceCraft should Turn Down from North Direction")
-    void spaceCraftShouldTurnDownFromNorthDirection(){
+    void spaceCraftShouldTurnDownFromNorthDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.North);
         yaan.turnDown(); // Turn down
         assertEquals(Direction.Down, yaan.getDirection());
@@ -21,7 +21,7 @@ public class TurnDownTest {
 
     @Test
     @DisplayName("SpaceCraft should Turn Down from South Direction")
-    void spaceCraftShouldTurnDownFromSouthDirection(){
+    void spaceCraftShouldTurnDownFromSouthDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.South);
         yaan.turnDown(); // Turn down
         assertEquals(Direction.Down, yaan.getDirection());
@@ -32,7 +32,7 @@ public class TurnDownTest {
 
     @Test
     @DisplayName("SpaceCraft should Turn Down from East Direction")
-    void spaceCraftShouldTurnDownFromEastDirection(){
+    void spaceCraftShouldTurnDownFromEastDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.East);
         yaan.turnDown(); // Turn down
         assertEquals(Direction.Down, yaan.getDirection());
@@ -43,7 +43,7 @@ public class TurnDownTest {
 
     @Test
     @DisplayName("SpaceCraft should Turn Down from West Direction")
-    void spaceCraftShouldTurnDownFromWestDirection(){
+    void spaceCraftShouldTurnDownFromWestDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.West);
         yaan.turnDown(); // Turn down
         assertEquals(Direction.Down, yaan.getDirection());
@@ -54,7 +54,7 @@ public class TurnDownTest {
 
     @Test
     @DisplayName("SpaceCraft should Turn Down from Up Direction")
-    void spaceCraftShouldTurnDownFromUpDirection(){
+    void spaceCraftShouldTurnDownFromUpDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.Up);
         yaan.turnDown(); // Turn down
         assertEquals(Direction.Down, yaan.getDirection());
@@ -65,7 +65,7 @@ public class TurnDownTest {
 
     @Test
     @DisplayName("SpaceCraft should Turn Down from Down Direction")
-    void spaceCraftShouldTurnDownFromDownDirection(){
+    void spaceCraftShouldTurnDownFromDownDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.Down);
         yaan.turnDown(); // Turn down
         assertEquals(Direction.Down, yaan.getDirection());

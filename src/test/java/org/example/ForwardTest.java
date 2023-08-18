@@ -5,11 +5,12 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 public class ForwardTest {
 
     @Test
     @DisplayName("SpaceCraft should move forward in North Direction")
-    void spaceCraftShouldMoveForwardInNorthDirection(){
+    void spaceCraftShouldMoveForwardInNorthDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.North);
         yaan.forward(); // move forward
         assertEquals(Direction.North, yaan.getDirection());
@@ -20,7 +21,7 @@ public class ForwardTest {
 
     @Test
     @DisplayName("SpaceCraft should move forward in South Direction")
-    void spaceCraftShouldMoveForwardInSouthDirection(){
+    void spaceCraftShouldMoveForwardInSouthDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.South);
         yaan.forward(); // move forward
         assertEquals(Direction.South, yaan.getDirection());
@@ -31,7 +32,7 @@ public class ForwardTest {
 
     @Test
     @DisplayName("SpaceCraft should move forward in East Direction")
-    void spaceCraftShouldMoveForwardInEastDirection(){
+    void spaceCraftShouldMoveForwardInEastDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.East);
         yaan.forward(); // move forward
         assertEquals(Direction.East, yaan.getDirection());
@@ -43,7 +44,7 @@ public class ForwardTest {
 
     @Test
     @DisplayName("SpaceCraft should move forward in West Direction")
-    void spaceCraftShouldMoveForwardInWestDirection(){
+    void spaceCraftShouldMoveForwardInWestDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.West);
         yaan.forward(); // move forward
         assertEquals(Direction.West, yaan.getDirection());
@@ -54,7 +55,7 @@ public class ForwardTest {
 
     @Test
     @DisplayName("SpaceCraft should move forward in Up Direction")
-    void spaceCraftShouldMoveForwardInUpDirection(){
+    void spaceCraftShouldMoveForwardInUpDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.Up);
         yaan.forward(); // move forward
         assertEquals(Direction.Up, yaan.getDirection());
@@ -65,7 +66,7 @@ public class ForwardTest {
 
     @Test
     @DisplayName("SpaceCraft should move forward in Down Direction")
-    void spaceCraftShouldMoveForwardInDownDirection(){
+    void spaceCraftShouldMoveForwardInDownDirection() {
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.Down);
         yaan.forward(); // move forward
         assertEquals(Direction.Down, yaan.getDirection());
