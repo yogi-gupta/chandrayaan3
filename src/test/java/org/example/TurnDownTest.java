@@ -68,7 +68,7 @@ public class TurnDownTest {
     void spaceCraftShouldTurnDownFromDownDirection(){
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.Down);
         yaan.turnDown(); // Turn down
-        assertEquals(Direction.Up, yaan.getDirection());
+        assertEquals(Direction.Down, yaan.getDirection());
         assertEquals(0, yaan.getY());
         assertEquals(0, yaan.getX());
         assertEquals(0, yaan.getZ());
