@@ -67,7 +67,7 @@ public class TurnUpTest {
     void spaceCraftShouldTurnUpInUpDirection(){
         ChandraYaan yaan = new ChandraYaan(0, 0, 0, Direction.Up);
         yaan.turnUp(); // Turn up
-        assertEquals(Direction.Down, yaan.getDirection());
+        assertEquals(Direction.Up, yaan.getDirection());
         assertEquals(0, yaan.getY());
         assertEquals(0, yaan.getX());
         assertEquals(0, yaan.getZ());

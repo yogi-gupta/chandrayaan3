@@ -76,7 +76,9 @@ public class ChandraYaan {
     }
 
     public void turnUp() {
-
+        if (direction == Direction.North || direction == Direction.South || direction == Direction.East || direction == Direction.West || direction == Direction.Down) {
+            direction = Direction.Up;
+        }
     }
 
     public void turnDown() {
